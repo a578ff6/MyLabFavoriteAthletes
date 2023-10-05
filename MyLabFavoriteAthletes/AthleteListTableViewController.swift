@@ -74,8 +74,7 @@ class AthleteListTableViewController: UITableViewController {
         } else {
             // 添加新運動員數據並在表格視圖中插入新的行
             athletes.append(athlete)
-            let indexPath = IndexPath(row: athletes.count - 1, section: 0)
-            tableView.insertRows(at: [indexPath], with: .automatic)
+ 
         }
     }
 
