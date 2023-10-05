@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		937CF4A02ACEE32900B9C35E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937CF49F2ACEE32900B9C35E /* AppDelegate.swift */; };
 		937CF4A22ACEE32900B9C35E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937CF4A12ACEE32900B9C35E /* SceneDelegate.swift */; };
-		937CF4A42ACEE32900B9C35E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937CF4A32ACEE32900B9C35E /* ViewController.swift */; };
 		937CF4A72ACEE32900B9C35E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937CF4A52ACEE32900B9C35E /* Main.storyboard */; };
 		937CF4A92ACEE32900B9C35E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937CF4A82ACEE32900B9C35E /* Assets.xcassets */; };
 		937CF4AC2ACEE32900B9C35E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937CF4AA2ACEE32900B9C35E /* LaunchScreen.storyboard */; };
+		937CF4B42ACEE35100B9C35E /* AthleteListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937CF4B32ACEE35100B9C35E /* AthleteListTableViewController.swift */; };
+		937CF4B62ACEE37200B9C35E /* AthleteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937CF4B52ACEE37200B9C35E /* AthleteDetailViewController.swift */; };
+		937CF4BA2ACEE38A00B9C35E /* AthleteInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937CF4B92ACEE38A00B9C35E /* AthleteInformation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		937CF49C2ACEE32900B9C35E /* MyLabFavoriteAthletes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLabFavoriteAthletes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		937CF49F2ACEE32900B9C35E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		937CF4A12ACEE32900B9C35E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		937CF4A32ACEE32900B9C35E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		937CF4A62ACEE32900B9C35E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		937CF4A82ACEE32900B9C35E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		937CF4AB2ACEE32900B9C35E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		937CF4AD2ACEE32900B9C35E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937CF4B32ACEE35100B9C35E /* AthleteListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleteListTableViewController.swift; sourceTree = "<group>"; };
+		937CF4B52ACEE37200B9C35E /* AthleteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleteDetailViewController.swift; sourceTree = "<group>"; };
+		937CF4B92ACEE38A00B9C35E /* AthleteInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleteInformation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				937CF49F2ACEE32900B9C35E /* AppDelegate.swift */,
 				937CF4A12ACEE32900B9C35E /* SceneDelegate.swift */,
-				937CF4A32ACEE32900B9C35E /* ViewController.swift */,
 				937CF4A52ACEE32900B9C35E /* Main.storyboard */,
+				937CF4B52ACEE37200B9C35E /* AthleteDetailViewController.swift */,
+				937CF4B32ACEE35100B9C35E /* AthleteListTableViewController.swift */,
+				937CF4B92ACEE38A00B9C35E /* AthleteInformation.swift */,
 				937CF4A82ACEE32900B9C35E /* Assets.xcassets */,
 				937CF4AA2ACEE32900B9C35E /* LaunchScreen.storyboard */,
 				937CF4AD2ACEE32900B9C35E /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				937CF4A42ACEE32900B9C35E /* ViewController.swift in Sources */,
+				937CF4B62ACEE37200B9C35E /* AthleteDetailViewController.swift in Sources */,
+				937CF4B42ACEE35100B9C35E /* AthleteListTableViewController.swift in Sources */,
 				937CF4A02ACEE32900B9C35E /* AppDelegate.swift in Sources */,
+				937CF4BA2ACEE38A00B9C35E /* AthleteInformation.swift in Sources */,
 				937CF4A22ACEE32900B9C35E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
